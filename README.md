@@ -10,7 +10,7 @@ Especificações do ambiente testado:
 
 --------
 
-### 1. Ajuste de Memória do WSL2
+# 1. Ajuste de Memória do WSL2
 Para evitar travamentos por falta de memória durante a construção da imagem Docker, abra o **PowerShell** no seu Windows e execute os comandos abaixo para configurar os limites de recursos:
 
 ```
@@ -31,7 +31,7 @@ sudo docker build -t deltavinaxgb .
 ```
 
 # 3. Organizar seus arquivos de entrada (ou baixar os disponíveis em ArquivosTeste)
-#Crie uma pasta local e adicione os arquivos das suas moléculas seguindo rigorosamente a padronização exigida pelo DeltaVina:
+Crie uma pasta local e adicione os arquivos das suas moléculas seguindo rigorosamente a padronização exigida pelo DeltaVina:
 
 ```
 mol_<ID>_ligand.pdb e mol_<ID>_ligand.sdf   
@@ -54,4 +54,4 @@ bash /app/run_rescoring.sh
 
 ----
 
-Resultado esperado: todas as moéculas serão processadas em lote, os arquivos temporários são removidos e os scores finais ficam disponíveis em tabelas.
+Resultado esperado: todas as moléculas serão processadas em lote, os arquivos temporários são removidos e os scores finais ficam disponíveis em tabelas.
