@@ -1,7 +1,7 @@
 # DeltaVina-WSL2-setup
 Este repositório centraliza as modificações necessárias para rodar o **DeltaVinaRF20** e o **DeltaVinaXGB** no Windows Subsystem for Linux (WSL2). Disponível no "https://github.com/chengwang88/vina4dv.git", seu código original possui dependências antigas e trechos que causavam erros de compilação devido a atualizações realizadas com os anos. As correções foram realizadas via Docker e scripts em Bash.
 
-<img width="1890" height="2570" alt="Diagrama_deltavina" src="https://github.com/user-attachments/assets/232760a1-64f8-4c44-8c5d-1ff83fab03c4" />
+<img width="550" height="748" alt="Diagrama_deltavina" src="https://github.com/user-attachments/assets/157ef17b-b9d7-467d-a286-ec5b350915bd" />
 
 -----
 
