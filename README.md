@@ -27,7 +27,7 @@ wsl --shutdown
 No terminal do seu WSL2, clone este repositório e compile a imagem Docker. Todas as correções no código C++ e de pacotes (como a substituição do moleculekit quebrado) já serão aplicadas automaticamente durante o build:
 
 ```
-git clone [https://github.com/ClariceSouto/DeltaVina-WSL2-setup.git](https://github.com/ClariceSouto/DeltaVina-WSL2.git)
+git clone https://github.com/ClariceSouto/DeltaVina-WSL2-setup/tree/DeltaVina-WSL2-setup
 cd DeltaVina-WSL2
 sudo docker build -t deltavinaxgb .
 ```
