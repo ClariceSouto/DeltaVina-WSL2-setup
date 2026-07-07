@@ -27,8 +27,8 @@ wsl --shutdown
 No terminal do seu WSL2, clone este repositório e compile a imagem Docker. Todas as correções no código C++ e de pacotes (como a substituição do moleculekit quebrado) já serão aplicadas automaticamente durante o build:
 
 ```
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-cd seu-repositorio
+git clone [https://github.com/ClariceSouto/DeltaVina-WSL2-setup.git](https://github.com/ClariceSouto/DeltaVina-WSL2.git)
+cd DeltaVina-WSL2
 sudo docker build -t deltavinaxgb .
 ```
 
@@ -45,13 +45,16 @@ mol_<ID>_protein_all.pdb (Proteína com moléculas de água/solvente | proteína
 Rode o container mapeando a sua pasta de dados (substitua o caminho do exemplo pelo seu caminho real do Windows):
 
 ```
+wsl
+cd ~
+sudo docker run -it -v
 sudo docker run -it -v /mnt/c/Caminho/Para/Sua/Pasta:/app/dados deltavinaxgb:latest /bin/bash
 ```
 Dentro do container, ative o ambiente virtual e chame o script de automação incluso neste repositório:
 
 ```
 source activate DXGB
-bash /app/run_rescoring.sh
+bash /app/Teste_rescoring/Arquivos_rescoring_flex/run_rescoring_flex.sh
 ```
 
 ----
