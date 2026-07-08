@@ -75,7 +75,6 @@ Rode o container mapeando a sua pasta de dados (substitua o caminho do exemplo p
 ```
 wsl
 cd ~
-sudo docker run -it -v
 sudo docker run -it -v /mnt/c/Caminho/Para/Sua/Pasta:/app/dados deltavinaxgb:latest /bin/bash
 ```
 Dentro do container, ative o ambiente virtual e chame o script de automação incluso neste repositório:
