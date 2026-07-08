@@ -6,15 +6,24 @@ Este repositório centraliza as modificações necessárias para rodar o **Delta
 -----
 
 Especificações do ambiente testado:
+
 **Sistema Operacional:** Windows 11 + WSL2 (V.2.3.26.0)
+
 **Versão do R:** 4.5.2
+
 **MGLTools:** v1.5.6 (https://ccsb.scripps.edu/mgltools/downloads/)
+
 **MSMS: (https://ccsb.scripps.edu/msms/downloads/)**
 
-Preparo do ambiente conda:
+
+**Preparo do ambiente conda:**
+
 conda install -c conda-forge xgboost=0.80.0
+
 conda install -c conda-forge rdkit=2019.03.1
+
 conda install -c conda-forge openbabel
+
 conda install -c conda-forge setuptools
 
 --------
