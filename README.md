@@ -19,6 +19,10 @@ Especificações do ambiente testado:
 
 **Preparo do ambiente conda:**
 
+conda create -n DXGB python=3.6
+
+conda activate DXGB
+
 conda install -c conda-forge xgboost=0.80.0
 
 conda install -c conda-forge rdkit=2019.03.1
@@ -45,6 +49,9 @@ No terminal do seu WSL2, clone este repositório e compile a imagem Docker. Toda
 
 ```
 git clone -b DeltaVina-WSL2-setup https://github.com/ClariceSouto/DeltaVina-WSL2-setup.git
+conda create -n DXGB python=3.6  # (ou a versão de python compatível que estiver usando)
+conda activate DXGB
+
 cd DeltaVina-WSL2
 sudo docker build -t deltavinaxgb .
 ```
