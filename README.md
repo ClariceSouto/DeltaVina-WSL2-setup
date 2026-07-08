@@ -31,6 +31,10 @@ conda install -c conda-forge openbabel
 
 conda install -c conda-forge setuptools
 
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker 
+
 --------
 
 # 1. Ajuste de Memória do WSL2
