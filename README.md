@@ -15,6 +15,7 @@ Especificações do ambiente testado:
 
 **MSMS: (https://ccsb.scripps.edu/msms/downloads/)**
 
+**Miniconda": https://www.anaconda.com/**
 
 **Preparo do ambiente conda:**
 
