@@ -38,7 +38,7 @@ sudo systemctl start docker
 --------
 
 # 1. Ajuste de Memória do WSL2
-Para evitar travamentos por falta de memória durante a construção da imagem Docker, abra o **PowerShell** no seu Windows e execute os comandos abaixo para configurar os limites de recursos:
+Para evitar travamentos por falta de memória durante a construção da imagem Docker, abra o **PowerShell** no seu Windows use os comandos abaixo como base para configurar os limites de recursos:
 
 ```
 powershell
@@ -55,9 +55,6 @@ No terminal do seu WSL2, clone este repositório e compile a imagem Docker. Toda
 git clone -b DeltaVina-WSL2-setup https://github.com/ClariceSouto/DeltaVina-WSL2-setup.git
 conda create -n DXGB python=3.6  # (ou a versão de python compatível que estiver usando)
 conda activate DXGB
-
-cd DeltaVina-WSL2
-sudo docker build -t deltavinaxgb .
 ```
 
 # 3. Organizar seus arquivos de entrada (ou baixar os disponíveis em ArquivosTeste)
